@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		F1D17BB61DF0075000B70F4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D17BB51DF0075000B70F4B /* AppDelegate.swift */; };
-		F1D17BB81DF0075000B70F4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D17BB71DF0075000B70F4B /* ViewController.swift */; };
 		F1D17BBB1DF0075000B70F4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D17BB91DF0075000B70F4B /* Main.storyboard */; };
 		F1D17BBD1DF0075000B70F4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1D17BBC1DF0075000B70F4B /* Assets.xcassets */; };
 		F1D17BC01DF0075000B70F4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D17BBE1DF0075000B70F4B /* LaunchScreen.storyboard */; };
 		F1D17BCB1DF0075000B70F4B /* Cool_RSS_FeederTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D17BCA1DF0075000B70F4B /* Cool_RSS_FeederTests.swift */; };
 		F1D17BD61DF0075100B70F4B /* Cool_RSS_FeederUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D17BD51DF0075100B70F4B /* Cool_RSS_FeederUITests.swift */; };
+		F1D17BE41DF06A0400B70F4B /* FeedItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D17BE31DF06A0400B70F4B /* FeedItemsTableViewController.swift */; };
+		F1D17BE61DF06AB900B70F4B /* FeedsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D17BE51DF06AB900B70F4B /* FeedsTableViewController.swift */; };
+		F1D17BE81DF06B1B00B70F4B /* AddFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D17BE71DF06B1B00B70F4B /* AddFeedViewController.swift */; };
+		F1D17BEA1DF06B5900B70F4B /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D17BE91DF06B5900B70F4B /* WebViewController.swift */; };
+		F1D17BEC1DF0730B00B70F4B /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D17BEB1DF0730B00B70F4B /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		F1D17BB21DF0075000B70F4B /* Cool RSS Feeder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cool RSS Feeder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D17BB51DF0075000B70F4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F1D17BB71DF0075000B70F4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F1D17BBA1DF0075000B70F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1D17BBC1DF0075000B70F4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1D17BBF1DF0075000B70F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		F1D17BD11DF0075100B70F4B /* Cool RSS FeederUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cool RSS FeederUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D17BD51DF0075100B70F4B /* Cool_RSS_FeederUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cool_RSS_FeederUITests.swift; sourceTree = "<group>"; };
 		F1D17BD71DF0075100B70F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D17BE31DF06A0400B70F4B /* FeedItemsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedItemsTableViewController.swift; path = "Cool RSS FeederUITests/FeedItemsTableViewController.swift"; sourceTree = SOURCE_ROOT; };
+		F1D17BE51DF06AB900B70F4B /* FeedsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedsTableViewController.swift; sourceTree = "<group>"; };
+		F1D17BE71DF06B1B00B70F4B /* AddFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFeedViewController.swift; sourceTree = "<group>"; };
+		F1D17BE91DF06B5900B70F4B /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		F1D17BEB1DF0730B00B70F4B /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				F1D17BB51DF0075000B70F4B /* AppDelegate.swift */,
-				F1D17BB71DF0075000B70F4B /* ViewController.swift */,
+				F1D17BE31DF06A0400B70F4B /* FeedItemsTableViewController.swift */,
+				F1D17BE51DF06AB900B70F4B /* FeedsTableViewController.swift */,
+				F1D17BEB1DF0730B00B70F4B /* DataModel.swift */,
+				F1D17BE71DF06B1B00B70F4B /* AddFeedViewController.swift */,
+				F1D17BE91DF06B5900B70F4B /* WebViewController.swift */,
 				F1D17BB91DF0075000B70F4B /* Main.storyboard */,
 				F1D17BBC1DF0075000B70F4B /* Assets.xcassets */,
 				F1D17BBE1DF0075000B70F4B /* LaunchScreen.storyboard */,
@@ -262,8 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1D17BB81DF0075000B70F4B /* ViewController.swift in Sources */,
+				F1D17BEC1DF0730B00B70F4B /* DataModel.swift in Sources */,
+				F1D17BE81DF06B1B00B70F4B /* AddFeedViewController.swift in Sources */,
 				F1D17BB61DF0075000B70F4B /* AppDelegate.swift in Sources */,
+				F1D17BE61DF06AB900B70F4B /* FeedsTableViewController.swift in Sources */,
+				F1D17BEA1DF06B5900B70F4B /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1D17BE41DF06A0400B70F4B /* FeedItemsTableViewController.swift in Sources */,
 				F1D17BD61DF0075100B70F4B /* Cool_RSS_FeederUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +433,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QMNXFRSMX5;
 				INFOPLIST_FILE = "Cool RSS Feeder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.skrjApp.Cool-RSS-Feeder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +447,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QMNXFRSMX5;
 				INFOPLIST_FILE = "Cool RSS Feeder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.skrjApp.Cool-RSS-Feeder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
