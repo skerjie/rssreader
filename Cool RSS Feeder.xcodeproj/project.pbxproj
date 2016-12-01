@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1D17BB61DF0075000B70F4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D17BB51DF0075000B70F4B /* AppDelegate.swift */; };
+		F1D17BB81DF0075000B70F4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D17BB71DF0075000B70F4B /* ViewController.swift */; };
+		F1D17BBB1DF0075000B70F4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D17BB91DF0075000B70F4B /* Main.storyboard */; };
+		F1D17BBD1DF0075000B70F4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1D17BBC1DF0075000B70F4B /* Assets.xcassets */; };
+		F1D17BC01DF0075000B70F4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D17BBE1DF0075000B70F4B /* LaunchScreen.storyboard */; };
+		F1D17BCB1DF0075000B70F4B /* Cool_RSS_FeederTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D17BCA1DF0075000B70F4B /* Cool_RSS_FeederTests.swift */; };
+		F1D17BD61DF0075100B70F4B /* Cool_RSS_FeederUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D17BD51DF0075100B70F4B /* Cool_RSS_FeederUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1D17BC71DF0075000B70F4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1D17BAA1DF0075000B70F4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1D17BB11DF0075000B70F4B;
+			remoteInfo = "Cool RSS Feeder";
+		};
+		F1D17BD21DF0075100B70F4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1D17BAA1DF0075000B70F4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1D17BB11DF0075000B70F4B;
+			remoteInfo = "Cool RSS Feeder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1D17BB21DF0075000B70F4B /* Cool RSS Feeder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cool RSS Feeder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D17BB51DF0075000B70F4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1D17BB71DF0075000B70F4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1D17BBA1DF0075000B70F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1D17BBC1DF0075000B70F4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1D17BBF1DF0075000B70F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1D17BC11DF0075000B70F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D17BC61DF0075000B70F4B /* Cool RSS FeederTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cool RSS FeederTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D17BCA1DF0075000B70F4B /* Cool_RSS_FeederTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cool_RSS_FeederTests.swift; sourceTree = "<group>"; };
+		F1D17BCC1DF0075100B70F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D17BD11DF0075100B70F4B /* Cool RSS FeederUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cool RSS FeederUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D17BD51DF0075100B70F4B /* Cool_RSS_FeederUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cool_RSS_FeederUITests.swift; sourceTree = "<group>"; };
+		F1D17BD71DF0075100B70F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1D17BAF1DF0075000B70F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D17BC31DF0075000B70F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D17BCE1DF0075100B70F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1D17BA91DF0075000B70F4B = {
+			isa = PBXGroup;
+			children = (
+				F1D17BB41DF0075000B70F4B /* Cool RSS Feeder */,
+				F1D17BC91DF0075000B70F4B /* Cool RSS FeederTests */,
+				F1D17BD41DF0075100B70F4B /* Cool RSS FeederUITests */,
+				F1D17BB31DF0075000B70F4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1D17BB31DF0075000B70F4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1D17BB21DF0075000B70F4B /* Cool RSS Feeder.app */,
+				F1D17BC61DF0075000B70F4B /* Cool RSS FeederTests.xctest */,
+				F1D17BD11DF0075100B70F4B /* Cool RSS FeederUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1D17BB41DF0075000B70F4B /* Cool RSS Feeder */ = {
+			isa = PBXGroup;
+			children = (
+				F1D17BB51DF0075000B70F4B /* AppDelegate.swift */,
+				F1D17BB71DF0075000B70F4B /* ViewController.swift */,
+				F1D17BB91DF0075000B70F4B /* Main.storyboard */,
+				F1D17BBC1DF0075000B70F4B /* Assets.xcassets */,
+				F1D17BBE1DF0075000B70F4B /* LaunchScreen.storyboard */,
+				F1D17BC11DF0075000B70F4B /* Info.plist */,
+			);
+			path = "Cool RSS Feeder";
+			sourceTree = "<group>";
+		};
+		F1D17BC91DF0075000B70F4B /* Cool RSS FeederTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1D17BCA1DF0075000B70F4B /* Cool_RSS_FeederTests.swift */,
+				F1D17BCC1DF0075100B70F4B /* Info.plist */,
+			);
+			path = "Cool RSS FeederTests";
+			sourceTree = "<group>";
+		};
+		F1D17BD41DF0075100B70F4B /* Cool RSS FeederUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1D17BD51DF0075100B70F4B /* Cool_RSS_FeederUITests.swift */,
+				F1D17BD71DF0075100B70F4B /* Info.plist */,
+			);
+			path = "Cool RSS FeederUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1D17BB11DF0075000B70F4B /* Cool RSS Feeder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1D17BDA1DF0075100B70F4B /* Build configuration list for PBXNativeTarget "Cool RSS Feeder" */;
+			buildPhases = (
+				F1D17BAE1DF0075000B70F4B /* Sources */,
+				F1D17BAF1DF0075000B70F4B /* Frameworks */,
+				F1D17BB01DF0075000B70F4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cool RSS Feeder";
+			productName = "Cool RSS Feeder";
+			productReference = F1D17BB21DF0075000B70F4B /* Cool RSS Feeder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1D17BC51DF0075000B70F4B /* Cool RSS FeederTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1D17BDD1DF0075100B70F4B /* Build configuration list for PBXNativeTarget "Cool RSS FeederTests" */;
+			buildPhases = (
+				F1D17BC21DF0075000B70F4B /* Sources */,
+				F1D17BC31DF0075000B70F4B /* Frameworks */,
+				F1D17BC41DF0075000B70F4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1D17BC81DF0075000B70F4B /* PBXTargetDependency */,
+			);
+			name = "Cool RSS FeederTests";
+			productName = "Cool RSS FeederTests";
+			productReference = F1D17BC61DF0075000B70F4B /* Cool RSS FeederTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1D17BD01DF0075100B70F4B /* Cool RSS FeederUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1D17BE01DF0075100B70F4B /* Build configuration list for PBXNativeTarget "Cool RSS FeederUITests" */;
+			buildPhases = (
+				F1D17BCD1DF0075100B70F4B /* Sources */,
+				F1D17BCE1DF0075100B70F4B /* Frameworks */,
+				F1D17BCF1DF0075100B70F4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1D17BD31DF0075100B70F4B /* PBXTargetDependency */,
+			);
+			name = "Cool RSS FeederUITests";
+			productName = "Cool RSS FeederUITests";
+			productReference = F1D17BD11DF0075100B70F4B /* Cool RSS FeederUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1D17BAA1DF0075000B70F4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Andrei Palonski";
+				TargetAttributes = {
+					F1D17BB11DF0075000B70F4B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = QMNXFRSMX5;
+						ProvisioningStyle = Automatic;
+					};
+					F1D17BC51DF0075000B70F4B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = QMNXFRSMX5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F1D17BB11DF0075000B70F4B;
+					};
+					F1D17BD01DF0075100B70F4B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = QMNXFRSMX5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F1D17BB11DF0075000B70F4B;
+					};
+				};
+			};
+			buildConfigurationList = F1D17BAD1DF0075000B70F4B /* Build configuration list for PBXProject "Cool RSS Feeder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1D17BA91DF0075000B70F4B;
+			productRefGroup = F1D17BB31DF0075000B70F4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1D17BB11DF0075000B70F4B /* Cool RSS Feeder */,
+				F1D17BC51DF0075000B70F4B /* Cool RSS FeederTests */,
+				F1D17BD01DF0075100B70F4B /* Cool RSS FeederUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1D17BB01DF0075000B70F4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D17BC01DF0075000B70F4B /* LaunchScreen.storyboard in Resources */,
+				F1D17BBD1DF0075000B70F4B /* Assets.xcassets in Resources */,
+				F1D17BBB1DF0075000B70F4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D17BC41DF0075000B70F4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D17BCF1DF0075100B70F4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1D17BAE1DF0075000B70F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D17BB81DF0075000B70F4B /* ViewController.swift in Sources */,
+				F1D17BB61DF0075000B70F4B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D17BC21DF0075000B70F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D17BCB1DF0075000B70F4B /* Cool_RSS_FeederTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D17BCD1DF0075100B70F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D17BD61DF0075100B70F4B /* Cool_RSS_FeederUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1D17BC81DF0075000B70F4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1D17BB11DF0075000B70F4B /* Cool RSS Feeder */;
+			targetProxy = F1D17BC71DF0075000B70F4B /* PBXContainerItemProxy */;
+		};
+		F1D17BD31DF0075100B70F4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1D17BB11DF0075000B70F4B /* Cool RSS Feeder */;
+			targetProxy = F1D17BD21DF0075100B70F4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1D17BB91DF0075000B70F4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1D17BBA1DF0075000B70F4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1D17BBE1DF0075000B70F4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1D17BBF1DF0075000B70F4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1D17BD81DF0075100B70F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1D17BD91DF0075100B70F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1D17BDB1DF0075100B70F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QMNXFRSMX5;
+				INFOPLIST_FILE = "Cool RSS Feeder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skrjApp.Cool-RSS-Feeder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F1D17BDC1DF0075100B70F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QMNXFRSMX5;
+				INFOPLIST_FILE = "Cool RSS Feeder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skrjApp.Cool-RSS-Feeder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F1D17BDE1DF0075100B70F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QMNXFRSMX5;
+				INFOPLIST_FILE = "Cool RSS FeederTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skrjApp.Cool-RSS-FeederTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cool RSS Feeder.app/Cool RSS Feeder";
+			};
+			name = Debug;
+		};
+		F1D17BDF1DF0075100B70F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QMNXFRSMX5;
+				INFOPLIST_FILE = "Cool RSS FeederTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skrjApp.Cool-RSS-FeederTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cool RSS Feeder.app/Cool RSS Feeder";
+			};
+			name = Release;
+		};
+		F1D17BE11DF0075100B70F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QMNXFRSMX5;
+				INFOPLIST_FILE = "Cool RSS FeederUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skrjApp.Cool-RSS-FeederUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Cool RSS Feeder";
+			};
+			name = Debug;
+		};
+		F1D17BE21DF0075100B70F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QMNXFRSMX5;
+				INFOPLIST_FILE = "Cool RSS FeederUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skrjApp.Cool-RSS-FeederUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Cool RSS Feeder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1D17BAD1DF0075000B70F4B /* Build configuration list for PBXProject "Cool RSS Feeder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D17BD81DF0075100B70F4B /* Debug */,
+				F1D17BD91DF0075100B70F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1D17BDA1DF0075100B70F4B /* Build configuration list for PBXNativeTarget "Cool RSS Feeder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D17BDB1DF0075100B70F4B /* Debug */,
+				F1D17BDC1DF0075100B70F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F1D17BDD1DF0075100B70F4B /* Build configuration list for PBXNativeTarget "Cool RSS FeederTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D17BDE1DF0075100B70F4B /* Debug */,
+				F1D17BDF1DF0075100B70F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F1D17BE01DF0075100B70F4B /* Build configuration list for PBXNativeTarget "Cool RSS FeederUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D17BE11DF0075100B70F4B /* Debug */,
+				F1D17BE21DF0075100B70F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1D17BAA1DF0075000B70F4B /* Project object */;
+}
