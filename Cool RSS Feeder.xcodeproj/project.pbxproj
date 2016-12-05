@@ -18,6 +18,9 @@
 		F1D17BE81DF06B1B00B70F4B /* AddFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D17BE71DF06B1B00B70F4B /* AddFeedViewController.swift */; };
 		F1D17BEA1DF06B5900B70F4B /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D17BE91DF06B5900B70F4B /* WebViewController.swift */; };
 		F1D17BEC1DF0730B00B70F4B /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D17BEB1DF0730B00B70F4B /* DataModel.swift */; };
+		F1D17C051DF07E7800B70F4B /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D17BF81DF07D8600B70F4B /* SQLite.framework */; };
+		F1D17C071DF07EB300B70F4B /* SQLiteDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D17C061DF07EB300B70F4B /* SQLiteDataStore.swift */; };
+		F1D17C091DF0851B00B70F4B /* FeedDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D17C081DF0851B00B70F4B /* FeedDataHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,55 @@
 			proxyType = 1;
 			remoteGlobalIDString = F1D17BB11DF0075000B70F4B;
 			remoteInfo = "Cool RSS Feeder";
+		};
+		F1D17BF71DF07D8600B70F4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1D17BED1DF07D8600B70F4B /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		F1D17BF91DF07D8600B70F4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1D17BED1DF07D8600B70F4B /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247ADD1C3F04ED00AE3E12;
+			remoteInfo = "SQLiteTests iOS";
+		};
+		F1D17BFB1DF07D8600B70F4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1D17BED1DF07D8600B70F4B /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
+			remoteInfo = "SQLite Mac";
+		};
+		F1D17BFD1DF07D8600B70F4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1D17BED1DF07D8600B70F4B /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B451C3F3ED000AE3E12;
+			remoteInfo = "SQLiteTests Mac";
+		};
+		F1D17BFF1DF07D8600B70F4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1D17BED1DF07D8600B70F4B /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		F1D17C011DF07D8600B70F4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1D17BED1DF07D8600B70F4B /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
+			remoteInfo = "SQLiteTests tvOS";
+		};
+		F1D17C031DF07D8600B70F4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1D17BED1DF07D8600B70F4B /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A121AC451CA35C79005A31D1;
+			remoteInfo = "SQLite watchOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -55,6 +107,9 @@
 		F1D17BE71DF06B1B00B70F4B /* AddFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFeedViewController.swift; sourceTree = "<group>"; };
 		F1D17BE91DF06B5900B70F4B /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		F1D17BEB1DF0730B00B70F4B /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		F1D17BED1DF07D8600B70F4B /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../../../../Downloads/SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
+		F1D17C061DF07EB300B70F4B /* SQLiteDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDataStore.swift; sourceTree = "<group>"; };
+		F1D17C081DF0851B00B70F4B /* FeedDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedDataHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1D17C051DF07E7800B70F4B /* SQLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +141,7 @@
 		F1D17BA91DF0075000B70F4B = {
 			isa = PBXGroup;
 			children = (
+				F1D17BED1DF07D8600B70F4B /* SQLite.xcodeproj */,
 				F1D17BB41DF0075000B70F4B /* Cool RSS Feeder */,
 				F1D17BC91DF0075000B70F4B /* Cool RSS FeederTests */,
 				F1D17BD41DF0075100B70F4B /* Cool RSS FeederUITests */,
@@ -108,9 +165,11 @@
 				F1D17BB51DF0075000B70F4B /* AppDelegate.swift */,
 				F1D17BE31DF06A0400B70F4B /* FeedItemsTableViewController.swift */,
 				F1D17BE51DF06AB900B70F4B /* FeedsTableViewController.swift */,
-				F1D17BEB1DF0730B00B70F4B /* DataModel.swift */,
 				F1D17BE71DF06B1B00B70F4B /* AddFeedViewController.swift */,
 				F1D17BE91DF06B5900B70F4B /* WebViewController.swift */,
+				F1D17BEB1DF0730B00B70F4B /* DataModel.swift */,
+				F1D17C061DF07EB300B70F4B /* SQLiteDataStore.swift */,
+				F1D17C081DF0851B00B70F4B /* FeedDataHelper.swift */,
 				F1D17BB91DF0075000B70F4B /* Main.storyboard */,
 				F1D17BBC1DF0075000B70F4B /* Assets.xcassets */,
 				F1D17BBE1DF0075000B70F4B /* LaunchScreen.storyboard */,
@@ -135,6 +194,20 @@
 				F1D17BD71DF0075100B70F4B /* Info.plist */,
 			);
 			path = "Cool RSS FeederUITests";
+			sourceTree = "<group>";
+		};
+		F1D17BEE1DF07D8600B70F4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1D17BF81DF07D8600B70F4B /* SQLite.framework */,
+				F1D17BFA1DF07D8600B70F4B /* SQLiteTests iOS.xctest */,
+				F1D17BFC1DF07D8600B70F4B /* SQLite.framework */,
+				F1D17BFE1DF07D8600B70F4B /* SQLiteTests Mac.xctest */,
+				F1D17C001DF07D8600B70F4B /* SQLite.framework */,
+				F1D17C021DF07D8600B70F4B /* SQLiteTests tvOS.xctest */,
+				F1D17C041DF07D8600B70F4B /* SQLite.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +306,12 @@
 			mainGroup = F1D17BA91DF0075000B70F4B;
 			productRefGroup = F1D17BB31DF0075000B70F4B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F1D17BEE1DF07D8600B70F4B /* Products */;
+					ProjectRef = F1D17BED1DF07D8600B70F4B /* SQLite.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F1D17BB11DF0075000B70F4B /* Cool RSS Feeder */,
@@ -241,6 +320,58 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F1D17BF81DF07D8600B70F4B /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = F1D17BF71DF07D8600B70F4B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F1D17BFA1DF07D8600B70F4B /* SQLiteTests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests iOS.xctest";
+			remoteRef = F1D17BF91DF07D8600B70F4B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F1D17BFC1DF07D8600B70F4B /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = F1D17BFB1DF07D8600B70F4B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F1D17BFE1DF07D8600B70F4B /* SQLiteTests Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests Mac.xctest";
+			remoteRef = F1D17BFD1DF07D8600B70F4B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F1D17C001DF07D8600B70F4B /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = F1D17BFF1DF07D8600B70F4B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F1D17C021DF07D8600B70F4B /* SQLiteTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests tvOS.xctest";
+			remoteRef = F1D17C011DF07D8600B70F4B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F1D17C041DF07D8600B70F4B /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = F1D17C031DF07D8600B70F4B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F1D17BB01DF0075000B70F4B /* Resources */ = {
@@ -275,9 +406,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1D17BEC1DF0730B00B70F4B /* DataModel.swift in Sources */,
+				F1D17C071DF07EB300B70F4B /* SQLiteDataStore.swift in Sources */,
 				F1D17BE81DF06B1B00B70F4B /* AddFeedViewController.swift in Sources */,
 				F1D17BB61DF0075000B70F4B /* AppDelegate.swift in Sources */,
 				F1D17BE61DF06AB900B70F4B /* FeedsTableViewController.swift in Sources */,
+				F1D17C091DF0851B00B70F4B /* FeedDataHelper.swift in Sources */,
 				F1D17BEA1DF06B5900B70F4B /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -532,6 +665,7 @@
 				F1D17BDC1DF0075100B70F4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1D17BDD1DF0075100B70F4B /* Build configuration list for PBXNativeTarget "Cool RSS FeederTests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +674,7 @@
 				F1D17BDF1DF0075100B70F4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1D17BE01DF0075100B70F4B /* Build configuration list for PBXNativeTarget "Cool RSS FeederUITests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +683,7 @@
 				F1D17BE21DF0075100B70F4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

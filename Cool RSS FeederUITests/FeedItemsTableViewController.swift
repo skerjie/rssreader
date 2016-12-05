@@ -18,7 +18,33 @@ class FeedItemsTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+      
+      let dataStore = SQLiteDataStore.sharedInstance
+      do {
+        try dataStore.createTables()
+        // checkDatabase()
+      } catch _ {
+        
+      }
     }
+  
+//  func checkDatabase() {
+//    do {
+//      let feed1 = try FeedDataHelper.insert(Feed(id: 0, name: "feed1", adress: "www.1")!)
+//      print(feed1)
+//      let feed2 = try FeedDataHelper.insert(Feed(id: 0, name: "feed2", adress: "www.2")!)
+//      print(feed2)
+//    } catch { }
+//    
+//    do {
+//      if let feeds = try FeedDataHelper.findAll() {
+//        for feed in feeds {
+//          print("\(feed.id!) \(feed.name!) \(feed.adress!)")
+//         // try FeedDataHelper.delete(Feed)
+//        }
+//      }
+//    } catch _ {}
+//  }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
