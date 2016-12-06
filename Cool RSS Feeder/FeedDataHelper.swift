@@ -64,7 +64,7 @@ class FeedDataHelper: DataHelperProtocol {
     guard let DB = SQLiteDataStore.sharedInstance.BBDB else {
       throw DataAccessError.Datatore_Connection_Error
     }
-    let query = table.filter(id == self.id)
+    let query = table.filter(id == item.getId())
     do {
       let tmp = try DB.run(query.delete())
       guard tmp == 1 else {
@@ -72,6 +72,7 @@ class FeedDataHelper: DataHelperProtocol {
       }
     } catch _{
       DataAccessError.Delete_Error
+      print("Error of delete function")
     }
   }
   

@@ -24,6 +24,18 @@ class Feed {
       return nil
     }
   }
+  
+  func getId() -> Int64 {
+    return id!
+  }
+  
+  func getName() -> String {
+    return name!
+  }
+  
+  func getAdress() -> String {
+    return adress!
+  }
 }
 
 class FeedItems {
@@ -36,6 +48,18 @@ class FeedItems {
     self.title = title
     self.description = description
     self.link = link
+  }
+  
+  func getTitle() -> String {
+    return title
+  }
+  
+  func getDescription() -> String {
+    return description
+  }
+  
+  func getLink() -> String {
+    return link
   }
   
 }
