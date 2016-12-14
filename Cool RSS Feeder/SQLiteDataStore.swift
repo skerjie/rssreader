@@ -29,7 +29,7 @@ class SQLiteDataStore {
     
     if let dirs : [NSString] = NSSearchPathForDirectoriesInDomains(.documentDirectory, .allDomainsMask, true) as [NSString] {
       let dir = dirs[0]
-      path = dir.strings(byAppendingPaths: "db.sqlite" )
+      path = dir.appendingPathComponent("db.sqlite") //.strings(byAppendingPaths: "db.sqlite" )
       print(path)
     }
     do {
@@ -47,3 +47,5 @@ class SQLiteDataStore {
     }
   }
 }
+
+

@@ -10,10 +10,18 @@ import UIKit
 
 class WebViewController: UIViewController {
 
+  var feedItem = FeedItems(title: "", description: "", link: "")
+  
+  func setFeedItem(feedItem: FeedItems) {
+    self.feedItem = feedItem
+  }
+  
   @IBOutlet weak var webView: UIWebView!
   
     override func viewDidLoad() {
         super.viewDidLoad()
+      
+      UIWebView.loadRequest(webView) (URLRequest(url: URL(string: feedItem.getLink())!))
 
         // Do any additional setup after loading the view.
     }

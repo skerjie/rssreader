@@ -61,5 +61,4 @@ class FeedItems {
   func getLink() -> String {
     return link
   }
-  
 }

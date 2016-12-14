@@ -32,7 +32,7 @@
         <!--Web View Controller-->
         <scene sceneID="qin-yy-7k8">
             <objects>
-                <viewController id="obp-LT-sY6" customClass="WebViewController" customModule="Cool_RSS_Feeder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FeedItem" id="obp-LT-sY6" customClass="WebViewController" customModule="Cool_RSS_Feeder" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iCs-Zx-XL7"/>
                         <viewControllerLayoutGuide type="bottom" id="ken-7n-IR7"/>
@@ -42,16 +42,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wkk-jI-84c">
-                                <rect key="frame" x="16" y="20" width="343" height="647"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ken-7n-IR7" firstAttribute="top" secondItem="Wkk-jI-84c" secondAttribute="bottom" id="CgD-wl-FWB"/>
-                            <constraint firstItem="Wkk-jI-84c" firstAttribute="top" secondItem="iCs-Zx-XL7" secondAttribute="bottom" id="cl5-MT-xnb"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Wkk-jI-84c" secondAttribute="trailing" id="d0u-jv-4rx"/>
-                            <constraint firstItem="Wkk-jI-84c" firstAttribute="leading" secondItem="hyl-jl-qgd" secondAttribute="leadingMargin" id="y0S-YT-JQk"/>
+                            <constraint firstItem="ken-7n-IR7" firstAttribute="top" secondItem="Wkk-jI-84c" secondAttribute="bottom" id="Jyt-TV-f1w"/>
+                            <constraint firstAttribute="trailing" secondItem="Wkk-jI-84c" secondAttribute="trailing" id="YUE-aQ-Ll5"/>
+                            <constraint firstItem="Wkk-jI-84c" firstAttribute="top" secondItem="iCs-Zx-XL7" secondAttribute="bottom" id="lkK-0F-W8f"/>
+                            <constraint firstItem="Wkk-jI-84c" firstAttribute="leading" secondItem="hyl-jl-qgd" secondAttribute="leading" id="qeG-Xe-tOQ"/>
                         </constraints>
                     </view>
                     <connections>
@@ -136,7 +136,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="90X-55-Uv2" customClass="FeedItemTableViewCell" customModule="Cool_RSS_Feeder" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="FeedItemsCell" rowHeight="100" id="90X-55-Uv2" customClass="FeedItemTableViewCell" customModule="Cool_RSS_Feeder" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="90X-55-Uv2" id="4cy-3R-cpC">
@@ -178,6 +178,11 @@
                                         <constraint firstAttribute="trailingMargin" secondItem="YTe-ci-KTw" secondAttribute="trailing" constant="7" id="gQE-PK-P3A"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="adressTextField" destination="wTd-u8-34J" id="2P8-gP-Hfy"/>
+                                    <outlet property="bigLetterLabel" destination="Nqv-aa-U3R" id="hcp-z0-ApT"/>
+                                    <outlet property="nameLabel" destination="YTe-ci-KTw" id="3xr-ai-W1M"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

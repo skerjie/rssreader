@@ -121,24 +121,31 @@ class FeedItemsTableViewController: UITableViewController, XMLParserDelegate {
   // MARK: - Table view data source
   
   override func numberOfSections(in tableView: UITableView) -> Int {
-    // #warning Incomplete implementation, return the number of sections
-    return 0
+    return 1
   }
   
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    // #warning Incomplete implementation, return the number of rows
-    return 0
+    return feedItems.count
   }
   
-  /*
+  
    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-   let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+   let cell = tableView.dequeueReusableCell(withIdentifier: "FeedItemsCell", for: indexPath) as! FeedItemTableViewCell
    
-   // Configure the cell...
+   let feedItem = feedItems[indexPath.row]
+    cell.bigLetterLabel.text = feedItem.getTitle()[feedItem.getTitle().startIndex..<feedItem.getTitle().startIndex.successor]
+    cell.nameLabel.text = feedItem.getTitle()
+    cell.adressTextField.text = feedItem.getDescription
    
    return cell
    }
-   */
+ 
+  override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    let storyboard = UIStoryboard(name: "Main", bundle: nil)
+    let vc = storyboard.instantiateViewController(withIdentifier: "FeedItem") as! WebViewController
+    vc.setFeedItem(feedItems[indexPath.row])
+    self.show(vc, sender: nil)
+  }
   
   /*
    // Override to support conditional editing of the table view.

@@ -168,9 +168,9 @@
 			children = (
 				F1D17BB51DF0075000B70F4B /* AppDelegate.swift */,
 				F1D17BE31DF06A0400B70F4B /* FeedItemsTableViewController.swift */,
+				F16B0C7A1DF6D60300A40C59 /* FeedItemTableViewCell.swift */,
 				F1D17BE51DF06AB900B70F4B /* FeedsTableViewController.swift */,
 				F16B0C711DF5C1A500A40C59 /* FeedsTableViewCell.swift */,
-				F16B0C7A1DF6D60300A40C59 /* FeedItemTableViewCell.swift */,
 				F1D17BE71DF06B1B00B70F4B /* AddFeedViewController.swift */,
 				F1D17BE91DF06B5900B70F4B /* WebViewController.swift */,
 				F1D17BEB1DF0730B00B70F4B /* DataModel.swift */,

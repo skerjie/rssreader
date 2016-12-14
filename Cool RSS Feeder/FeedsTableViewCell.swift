@@ -11,8 +11,8 @@ import UIKit
 class FeedsTableViewCell: UITableViewCell {
 
   @IBOutlet weak var nameLabel: UILabel!
-  
   @IBOutlet weak var adressLabel: UILabel!
+  
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

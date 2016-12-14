@@ -10,6 +10,10 @@ import UIKit
 
 class FeedItemTableViewCell: UITableViewCell {
 
+  @IBOutlet weak var bigLetterLabel: UILabel!
+  @IBOutlet weak var nameLabel: UILabel!
+  @IBOutlet weak var adressTextField: UITextField!
+  
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
